@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
 """
-Sort files in a directory into subfolders named after the first letter or
-number of each file name.
+Sort files in a directory into subfolders named after the first letter or number of each file name.
 
     report.docx   -> R\report.docx
     2024_notes.txt -> 2\2024_notes.txt
     _scratch.txt  -> _Other\_scratch.txt   (first char isn't a letter/number)
 
-Only files directly inside the target directory are moved (no recursion),
-and existing subfolders are left alone.
+Only files directly inside the target directory are moved (no recursion), and existing subfolders are left alone.
 
 Usage:
     python sort_files_by_first_char.py "C:\\Users\\Bill\\Downloads"
